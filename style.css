@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* top header */
+
+body {
+  background-color: black;
+}
+.header-container{
+  padding-bottom:10px ;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  z-index: 1;
+}
+.arrwo-butun {
+  color: white;
+  font-size: 30px;
+}
+.container {
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+  height: 98vh;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  background-position: bottom;
+}
+.img-coins {
+  margin-bottom: 10px;
+  width: 3.5rem;
+  padding-left: 16px;
+  height: 3.5rem;
+  display: flex;
+  flex-direction: row;
+}
+.header-top-1 {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid white; */
+}
+.header-top {
+  gap: 45px;
+  display: flex;
+  align-items: center;
+}
+
+.text-2 {
+  font-size: 1.6rem;
+  text-align: inherit;
+}
+
+.text {
+  color: white;
+  font-size: 0px;
+  position: relative;
+}
+
+.my-bal {
+  color: gray;
+  font-size: 20px;
+
+  margin-top: 10px;
+}
+
+.trans-btn{
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: dodgerblue;
+  margin: 1rem;
+  padding: 0 10px;
+  border-radius: 2rem;
+}
+
+.line {
+  margin-top: 20px;
+  border-color: gray;
+}
+
+.gallery {
+  padding: 10px 8px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  justify-content: center;
+}
+.img-1 {
+  display: grid;
+  justify-items: center;
+  background-color: rgb(47, 40, 40);
+  border-radius: 0.5rem;
+  position: relative;
+}
+.img-5 {
+  position: relative;
+  background: linear-gradient(#a58b07, #070702);
+}
+
+.img-6 {
+  background: linear-gradient(rgb(63, 3, 31), rgb(19, 2, 2));
+}
+
+.img-7 {
+  background: linear-gradient(rgb(60, 26, 54), rgb(138, 15, 140));
+}
+
+.img-8 {
+  background: linear-gradient(rgb(215, 188, 10), rgb(11, 11, 11));
+}
+
+.img-9 {
+  background: linear-gradient(rgb(215, 143, 10), rgb(11, 11, 11));
+}
+.img-14 {
+  background: linear-gradient(rgb(215, 58, 10), rgb(12, 2, 2));
+}
+
+.hot-butun {
+  width: 7rem;
+  height: 88px;
+  overflow: hidden;
+  position: absolute;
+}
+
+
+.ribbon {
+
+  
+  font: bold 9px sans-serif; 
+  color: #333;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: relative;
+  padding: 1px 10px 0 0;
+  top: 5px;
+  left: -30px;
+  width: 95px;
+  background-color: red;
+  color: #fff;
+  height: 12px; 
+}
+
+
+.grid-img {
+  width: 7rem;
+  height: 7rem;
+  padding: 1.8rem;
+}
+
+.text1 {
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  text-align: center;
+}
+
+.discount-cost-1 {
+  color: white;
+  font-size: 1.1rem;
+  position: absolute;
+  bottom: 1rem;
+}
+
+.orignal-cost-1 {
+  color: rgb(203, 181, 181);
+  text-decoration: line-through;
+  font-size: 0.9rem;
+  position: absolute;
+  bottom: 0rem;
+}
+
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 343px) {
+  html {
+    font-size: 10px;
+  }
+}
